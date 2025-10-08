@@ -1,0 +1,110 @@
+\begin{thebibliography}{99}
+
+\bibitem{alter2017}
+Alter, A. (2017). \textit{Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked}. Penguin Press.
+
+\bibitem{amin2022}
+Amin, M. R., Wickramasuriya, D., \& Faghih, R. T. (2022). A Wearable Exam Stress Dataset for Predicting Cognitive Performance in Real-World Settings (version 1.0.0). PhysioNet. \url{https://doi.org/10.13026/kvkb-aj90}.
+
+\bibitem{multimodalMethods}
+An overview of methods and techniques in multimodal data fusion with application to healthcare. (n.d.). Retrieved from \url{https://link.springer.com/article/10.1007/s41060-025-00715-0}.
+
+\bibitem{kemp2000}
+B. Kemp, A. H. Zwinderman, B. Tuk, H. A. C. Kamphuisen, \& J. J. L. Obery\'e. (2000). Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG. \textit{IEEE Transactions on Biomedical Engineering}, 47(9), 1185--1194.
+
+\bibitem{bent2021}
+Bent, B., Cho, P. J., Henriquez, M., et al. (2021). Engineering digital biomarkers of interstitial glucose from noninvasive smartwatches. \textit{npj Digital Medicine}, 4, 89. \url{https://doi.org/10.1038/s41746-021-00465-w}.
+
+\bibitem{birjandtalab2016}
+Birjandtalab, J., Cogan, D., Baran Pouyan, M., \& Nourani, M. (2016). A Non-EEG Biosignals Dataset for Assessment and Visualization of Neurological Status. In \textit{2016 IEEE International Workshop on Signal Processing Systems (SiPS)} (pp. 110--114). IEEE. \url{10.1109/SiPS.2016.27}.
+
+\bibitem{carepatron}
+Carepatron. (n.d.). How to overcome learned helplessness. Carepatron. Retrieved April 22, 2025, from \url{https://www.carepatron.com/how-to-overcome-learned-helplessness}.
+
+\bibitem{cho2023}
+Cho, P., Kim, J., Bent, B., \& Dunn, J. (2023). BIG IDEAs Lab Glycemic Variability and Wearable Device Data (version 1.1.2). PhysioNet. \url{https://doi.org/10.13026/zthx-5212}.
+
+\bibitem{gradesDataset2022}
+Dataset for Predicting Grades using Physiological Signals. (2022). In \textit{2022 IEEE Healthcare Innovations and Point of Care Technologies (HI-POCT)}. IEEE.
+
+\bibitem{digitalPhenotypingReview}
+Digital phenotyping: An epistemic and methodological analysis. (n.d.). Retrieved from \url{https://link.springer.com/article/10.1007/s10728-017-0314-4}.
+
+\bibitem{ethicalDigitalPhenotyping}
+Ethical dimensions of digital phenotyping within the context of mental healthcare. (n.d.). Retrieved from \url{https://link.springer.com/article/10.1007/s40473-019-00191-5}.
+
+\bibitem{gpcca}
+Generalized probabilistic canonical correlation analysis for multi-modal data integration with full or partial observations. (n.d.). Retrieved from \url{https://arxiv.org/abs/2504.11610}.
+
+\bibitem{harvardBeiwe}
+Harvard T.H. Chan School of Public Health. (n.d.). Digital phenotyping and Beiwe research platform. Retrieved from \url{https://www.hsph.harvard.edu/harvard-beiwe-project/}.
+
+\bibitem{hongn2025}
+Hongn, A., Bosch, F., Prado, L., \& Bonomini, P. (2025). Wearable Device Dataset from Induced Stress and Structured Exercise Sessions (version 1.0.0). PhysioNet. \url{https://doi.org/10.13026/zzf8-xv61}.
+
+\bibitem{krishnan2008}
+Krishnan, V., \& Nestler, E. J. (2008). The molecular neurobiology of depression. \textit{Nature}, 455(7215), 894--902.
+
+\bibitem{mcewen2007}
+McEwen, B. S. (2007). Physiology and neurobiology of stress and adaptation: Central role of the brain. \textit{Physiological Reviews}, 87(3), 873--904.
+
+\bibitem{mindhelp}
+Mind.help. (n.d.). Exploring learned helplessness: 4 key insights and ways to overcome. Mind.help. Retrieved April 22, 2025, from \url{https://www.mind.help/exploring-learned-helplessness}.
+
+\bibitem{montague2004}
+Montague, P. R., Hyman, S. E., \& Cohen, J. D. (2004). Computational roles for dopamine in behavioral control. \textit{Nature}, 431(7010), 760--767.
+
+\bibitem{motahari2022}
+Motahari-Nezhad, H., Zare, F., Akbari, H., \& Sadeghdaghighi, A. (2022). \textit{Health outcomes of Fitbit, Garmin, or Apple Watch-based interventions: A systematic review of systematic reviews}. Baltic Journal of Health and Physical Activity, 14(4), Article 8. Retrieved from \url{https://www.balticsportscience.com/journal/vol14/iss4/8/}.
+
+\bibitem{mukli2021}
+Mukli, P., Yabluchanskiy, A., \& Csipo, T. (2021). Mental workload during n-back task captured by TransCranial Doppler (TCD) sonography and functional Near-Infrared Spectroscopy (fNIRS) monitoring (version 1.0). PhysioNet. \url{https://doi.org/10.13026/zfb2-1g43}.
+
+\bibitem{multimodalAlignmentSurvey}
+Multimodal alignment and fusion: A survey. (n.d.). Retrieved from \url{https://arxiv.org/abs/2411.17040}.
+
+\bibitem{pimentel2016}
+Pimentel, M. A. F., et al. (2016). Towards a Robust Estimation of Respiratory Rate from Pulse Oximeters. \textit{IEEE Transactions on Biomedical Engineering}, 64(8), 1914--1923. \url{http://doi.org/10.1109/TBME.2016.2613124}.
+
+\bibitem{potenza2019}
+Potenza, M. N., et al. (2019). The role of reward circuitry in internet gaming disorder. \textit{Neuropsychopharmacology}, 44(1), 239--245.
+
+\bibitem{sapolsky2004}
+Sapolsky, R. M. (2004). \textit{Why Zebras Don't Get Ulcers}. Holt Paperbacks.
+
+\bibitem{smartDevicesReview2021}
+Smart devices and wearable technologies to detect and monitor mental health conditions and stress: A systematic review. (2021). \textit{Sensors}.
+
+\bibitem{shaffer2014}
+Shaffer, F., McCraty, R., \& Zerr, C. L. (2014). A healthy heart is not a metronome: An integrative review of the heart's anatomy and heart rate variability. \textit{Frontiers in Psychology}, 5, 1040. \url{https://doi.org/10.3389/fpsyg.2014.01040}.
+
+\bibitem{shmerling2021}
+Shmerling, R. H. (2021). \textit{Harvard Health Ad Watch: Can a wearable device reduce stress?} Harvard Health Publishing. Retrieved from \url{https://www.health.harvard.edu/blog/harvard-health-ad-watch-can-a-wearable-device-reduce-stress-202109222601}.
+
+\bibitem{stateOfArt2023}
+State-of-the-art of stress prediction from heart rate variability using artificial intelligence. (n.d.). Retrieved from \url{https://link.springer.com/article/10.1007/s12559-023-10200-0}.
+
+\bibitem{stressHRmetaAnalysis}
+Stress and heart rate variability: A meta-analysis and review of the literature. (n.d.). Retrieved from \url{https://www.psychiatryinvestigation.org/upload/pdf/pi-2017-08-17.pdf}.
+
+\bibitem{hrvTrends}
+Trends in heart-rate variability signal analysis. (n.d.). Retrieved from \url{https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2021.639444/full}.
+
+\bibitem{wearablePsychiatry2024}
+Wearable devices in psychiatry: A novel way of mental health monitoring. (2024). In \textit{AIP Conference Proceedings}.
+
+\bibitem{wearableECG2023}
+Wearable ECG systems for accurate mental stress detection: A scoping review. (2023). Springer.
+
+\bibitem{white2024}
+White, J. W. III, et al. (2024). \textit{Comparison of raw accelerometry data from ActiGraph, Apple Watch, Garmin, and Fitbit using a mechanical shaker table}. PLOS ONE, 19(3). Retrieved from \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0286898}.
+
+\bibitem{wilcox2021}
+Wilcox, R., \& Clayton, R. (2021). Dopamine-driven engagement in social media platforms. \textit{Journal of Behavioral Addictions}, 10(4), 567--582.
+
+\bibitem{young2007}
+Young, S. N. (2007). How to increase serotonin in the human brain without drugs. \textit{Journal of Psychiatry \& Neuroscience}, 32(6), 394--399.
+
+\end{thebibliography}
+
+\end{document}

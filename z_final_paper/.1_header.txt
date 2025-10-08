@@ -1,0 +1,10 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Predicting Mental Health Crises using AI: A Predictive Algorithm Approach}
+\author{Veronica Fuentes}
+\date{May 2025}
+
+\begin{document}
+
+\maketitle

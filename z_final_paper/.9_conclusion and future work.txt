@@ -1,0 +1,17 @@
+\section*{Conclusions and Future Work}
+
+\subsection*{Conclusions}
+
+Our work demonstrates that the integration of predictive algorithms in mental health care can do more than simply forecast potential crises; it can foster meaningful behavioral transformation. By combining traditional biomarkers such as heart rate variability with emerging digital biomarkers—including respiratory rate derived from PPG signals and glycemic variability—our system captures a nuanced picture of physiological stress responses. The analysis of HR spikes and the examination of pre-spike trends provide evidence that certain early physiological changes, when viewed alongside other signals, may serve as reliable indicators of mounting distress. This innovative, multi-modal approach reinforces the idea that personalized, data-driven models have the potential to drive proactive, adaptive coping mechanisms and interrupt cycles of learned helplessness. Ultimately, the synergy between advanced technology and behavioral science offers a promising pathway not only to mitigate mental health crises but also to support long-term resilience and recovery.
+
+\subsection*{Future Work}
+
+Building on these findings, future research and development efforts will focus on:
+\begin{itemize}
+    \item \textbf{Algorithm Refinement:} Further optimize signal processing techniques and multi-modal data fusion to improve the accuracy and robustness of HR spike detection, respiratory rate estimation, and glycemic variability analysis. Adaptive learning methods will be explored to tailor the predictive model to individual baseline patterns.
+    \item \textbf{Enhanced Measurements:} Incorporate event-based detection methods to capture stress onset in real time rather than at fixed intervals, and improve sensor calibration to refine the timing and magnitude of physiological changes.
+    \item \textbf{Data Privacy and Security:} Implement robust protocols for secure data processing, storage, and transmission that address privacy and ethical concerns while protecting sensitive personal health information.
+    \item \textbf{Integration with Healthcare Systems:} Collaborate with healthcare providers to seamlessly integrate the predictive algorithm into existing clinical workflows and electronic health record systems, facilitating real-world adoption.
+    \item \textbf{Longitudinal Studies:} Conduct extended studies across diverse populations to validate the predictive system’s long-term impact on mental health outcomes and assess sustained benefits of early intervention.
+    \item \textbf{Real-Time Intervention:} Develop and test automated intervention strategies—including alerts, virtual therapist integration, and personalized resource recommendations—based on early physiological and behavioral signals.
+\end{itemize}

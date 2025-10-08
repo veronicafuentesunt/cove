@@ -1,0 +1,60 @@
+\section*{Results}
+
+\textbf{HR Spike Detection and Pre-Spike Pattern Analysis}
+
+Our analysis automatically identified heart rate (HR) spikes during the STRESS condition using a threshold defined as the mean HR plus one standard deviation for each subject. For each detected HR spike, we analyzed the 10‐minute (600-second) period immediately preceding the spike to extract the following pre-spike metrics:
+\begin{itemize}
+  \item The mean HR over the window,
+  \item The standard deviation (STD) of HR, and
+  \item The linear trend (slope, expressed in bpm/s) of HR over time.
+\end{itemize}
+
+\textbf{Subject f01:}
+\begin{itemize}
+  \item \textbf{Spike Detection:} Ten HR spikes were detected using a threshold of 75.35 bpm.
+  \item \textbf{Pre-Spike Metrics:}
+  \begin{itemize}
+    \item Spike at 110.03 s: Mean = 71.76 bpm, STD = 3.26, trend slope = +0.0405 bpm/s.
+    \item Spike at 381.12 s: Mean = 71.64 bpm, STD = 2.68, trend slope = +0.0015 bpm/s.
+    \item Spike at 528.16 s: Mean = 71.45 bpm, STD = 3.06, trend slope = –0.0007 bpm/s.
+    \item Spike at 942.29 s: Mean = 68.84 bpm, STD = 4.45, trend slope = –0.0099 bpm/s.
+    \item Later spikes (e.g., at 2942.91 s, 2955.91 s, 3062.94 s, 3066.95 s, 3077.95 s, and 3235.00 s) exhibited window mean values between approximately 64.32 and 66.17 bpm with trend slopes ranging from +0.0276 to +0.0606 bpm/s.
+  \end{itemize}
+\end{itemize}
+
+\textbf{Subject f02:}
+\begin{itemize}
+  \item \textbf{Spike Detection:} Ten HR spikes were detected using a threshold of 78.81 bpm.
+  \item \textbf{Pre-Spike Metrics:}
+  \begin{itemize}
+    \item Early spikes (at 25.01 s and 27.01 s) exhibited high trend slopes of +1.0846 and +0.9930 bpm/s, indicating rapid HR increases.
+    \item Later spikes (detected at 947.32 s, 1093.37 s, 1117.38 s, 1706.58 s, 2289.77 s, 2308.78 s, and 2787.94 s) had pre-spike window mean HR values between 73.14 and 75.35 bpm and trend slopes ranging from –0.0133 to +0.0223 bpm/s.
+  \end{itemize}
+\end{itemize}
+
+\textbf{Subject f03:}
+\begin{itemize}
+  \item \textbf{Spike Detection:} Eighteen HR spikes were detected using a threshold of 86.71 bpm.
+  \item \textbf{Pre-Spike Metrics:} The pre-spike window mean HR values ranged from approximately 77.08 to 85.67 bpm, with trend slopes consistently in the small, positive range (about +0.0158 to +0.0325 bpm/s), suggesting a gradual increase in HR prior to each spike.
+\end{itemize}
+
+\textbf{Subject f04:}
+\begin{itemize}
+  \item \textbf{Spike Detection:} Twenty-six HR spikes were detected using a threshold of 85.15 bpm.
+  \item \textbf{Pre-Spike Metrics:}
+  \begin{itemize}
+    \item An early spike at 4.00 s showed an exceptionally high pre-spike window mean (90.79 bpm) along with a large trend slope of +17.1053 bpm/s, indicating a highly anomalous or rapid response.
+    \item Subsequent spikes (e.g., at 152.04 s, 184.05 s, 186.05 s, 230.06 s, 264.07 s, 333.09 s, 363.10 s, 376.10 s, 387.11 s, 390.11 s, 396.11 s, 1108.30 s, 1142.31 s, 1233.34 s, 1248.34 s, 1302.36 s, 1311.36 s, and 1330.37 s) demonstrated window mean HR values ranging from approximately 76.78 to 81.77 bpm, with moderate trend slopes typically between +0.0010 and +0.0365 bpm/s.
+  \end{itemize}
+\end{itemize}
+
+\textbf{Summary of Findings:}
+\begin{itemize}
+  \item \textbf{Inter-Subject Variability:} The number of detected HR spikes and the characteristics of the pre-spike HR patterns varied considerably among subjects. For example, subject f04 exhibited 26 spikes, while subjects f01 and f02 each had 10 spikes and subject f03 had 18 spikes.
+  \item \textbf{Pre-Spike HR Behavior:} Although many subjects exhibited a modest positive HR trend in the 10-minute pre-spike window, some spikes were preceded by relatively stable or even slightly decreasing HR levels, indicating that not all HR spikes are heralded by a clear upward trend.
+  \item \textbf{Rapid HR Changes:} Notably, subject f02’s earliest spikes were associated with exceptionally rapid HR increases (trend slopes greater than +0.99 bpm/s), whereas later spikes across subjects showed more moderate changes.
+\end{itemize}
+
+\textbf{Implications:}
+
+These findings suggest that the HR trends within the 10-minute window preceding a spike may provide early indicators of physiological arousal or stress. The inter-individual variability observed in both the number of spikes and the pre-spike trend slopes underscores the importance of incorporating personalized baselines when developing predictive models for stress detection. Future work may focus on integrating these HR-derived features with other physiological signals, such as those from respiratory rate estimation and glycemic variability analysis, to enhance early warning systems for stress-induced events.

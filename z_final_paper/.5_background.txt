@@ -1,0 +1,45 @@
+\section*{Background}
+
+Understanding the physiological and psychological factors that influence mental health is essential for interpreting the impact of predictive AI models. Several key concepts provide a foundation for how the human body responds to stress, recovers, and maintains overall well-being.
+
+\subsection*{Heart Rate Variability (HRV)}
+
+HRV refers to the fluctuation in the time intervals between heartbeats, reflecting autonomic nervous system activity. A high HRV generally indicates better stress resilience and cardiovascular health, while a low HRV is associated with heightened stress levels and potential psychological distress. Research has demonstrated that HRV serves as an important biomarker in mental health monitoring, as it reflects an individual’s ability to adapt to environmental and emotional challenges.
+
+\subsection*{Stress and Glucose Regulation}
+
+Stress and glucose levels share a bidirectional relationship, where each influences the other in significant ways. Psychological stress can trigger the release of cortisol and adrenaline, hormones that prompt the liver to produce more glucose, thereby increasing blood sugar levels. Conversely, fluctuations in glucose levels can impact mood, energy regulation, and cognitive function. Sudden drops in glucose may contribute to heightened anxiety and irritability, while chronic instability in blood sugar levels has been linked to increased stress vulnerability.
+
+\subsection*{Sleep and Mental Health}
+
+Sleep plays a vital role in both physical and mental well-being. A lack of quality sleep disrupts cognitive function, emotional regulation, and stress resilience. Sleep deprivation has been associated with increased cortisol levels, impaired memory, and reduced emotional stability. Additionally, poor sleep habits contribute to heightened inflammation and metabolic imbalances, further exacerbating stress responses. Consistently maintaining restorative sleep cycles can significantly enhance overall mental health and stress management.
+
+\subsection*{Social Interaction and Psychological Well-being}
+
+Human connection is a fundamental aspect of psychological health. Social engagement supports emotional resilience, cognitive stimulation, and stress regulation by promoting the release of oxytocin, a hormone associated with bonding and relaxation. Studies have shown that social isolation correlates with increased stress and anxiety levels, while frequent social interactions contribute to improved mood stability and reduced physiological markers of distress.
+
+\subsection*{Adrenaline and the Body’s Stress Response}
+
+Adrenaline, also known as epinephrine, is responsible for initiating the body’s "fight-or-flight" response. It rapidly increases heart rate, blood pressure, and energy availability, preparing the body to react to perceived threats. While adrenaline is essential for acute stress responses, frequent or prolonged surges can contribute to chronic stress symptoms, fatigue, and heightened emotional reactivity.
+
+\subsection*{Cortisol and Its Effects on the Body}
+
+Cortisol is commonly known as the body’s primary stress hormone. It plays a critical role in managing metabolic functions, immune responses, and inflammatory processes. While short-term cortisol release helps the body respond to immediate stressors, prolonged elevation of cortisol levels can lead to detrimental effects, including impaired cognitive function, weakened immune response, and an increased risk for anxiety and depression.
+
+\subsection*{Self-Propagation of Hormones}
+
+Hormones play a crucial role in regulating bodily functions, and some operate in self-propagating cycles, where their presence reinforces further production or suppression of related biological processes. For example, when cortisol levels rise due to stress, they trigger a cascade of responses, including increased blood sugar levels and suppressed immune function. If stress persists, cortisol remains elevated, disrupting the body's natural regulation. Similarly, adrenaline can create feedback loops that increase sensitivity to stressors. Neurotransmitters such as serotonin and dopamine also participate in self-regulating cycles that affect mood stabilization, motivation, and reward, with behavioral and environmental factors influencing their balance.
+
+\subsection*{Dopamine Self-Propagation and Technology}
+
+Dopamine, often referred to as the "reward" neurotransmitter, plays a central role in motivation, pleasure, and habit formation. Modern technologies—such as social media, gaming, and digital interfaces—leverage dopamine-driven feedback loops to encourage repetitive engagement. These systems implement variable reward schedules that can intensify dopamine release, sometimes resulting in compulsive use that challenges natural reward sensitivity. Understanding these mechanisms is essential for designing AI-driven mental health interventions that promote balanced engagement with digital platforms.
+
+\subsection*{Integration of Biometric and Behavioral Data}
+
+Integrating biometric signals and behavioral data provides a comprehensive perspective on an individual’s mental state. Wearable sensors capture continuous streams of physiological data, while digital logs offer contextual insights into daily behaviors. Together, these data sources enable AI-driven models to detect early warning signals and support timely interventions that promote long-term psychological resilience.
+
+\subsection*{Respiratory Rate Estimation as a Digital Biomarker}
+
+Recent advances in digital biomarker research have expanded the range of measurable physiological parameters. One promising area is the estimation of respiratory rate from photoplethysmogram (PPG) signals. Even though PPG is primarily used to measure blood volume changes, it also contains subtle modulations induced by breathing. Our approach preprocesses the PPG signal by removing baseline drift and isolating the amplitude envelope via the Hilbert transform. A Butterworth bandpass filter then extracts the frequency band typical of human respiration (0.1 to 0.5 Hz). Finally, a fast Fourier transform applied over sliding windows identifies the dominant frequency, which is converted to breaths per minute. Further, by analyzing respiratory-induced frequency variation (RIFV), intensity variation (RIIV), and amplitude variation (RIAV) using autoregressive models, our method offers a robust, dynamic picture of respiratory patterns. This additional digital biomarker complements traditional measures, enriching our understanding of autonomic function and stress reactivity in mental health monitoring.
+
+These foundational concepts collectively underpin the development and interpretation of predictive AI models. By leveraging insights from physiological and behavioral research, AI-driven tools can identify early warning signs and enable tailored interventions that support long-term mental well-being.

@@ -1,0 +1,3 @@
+\section*{Motivation}
+
+There is a critical need to transition from reactive to proactive mental health care. Mental health crises disrupt individual well-being and force healthcare systems into costly emergency interventions. By detecting early signs of distress, our predictive algorithm is designed to initiate timely support, potentially reducing both the severity and duration of crises. This proactive approach not only improves quality of life for individuals but also optimizes resource allocation across healthcare infrastructures. Ultimately, turning early warning signs into early wins for both patients and providers is at the heart of our endeavor.

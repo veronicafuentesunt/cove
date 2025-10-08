@@ -1,0 +1,56 @@
+\section*{Methodology}
+
+\textbf{Data Collection \& Replication Strategy:}
+
+Our algorithm is designed not only to harness continuous input from wearable devices and mobile applications but also to recreate the results of established studies across various physiological modalities. Central to our approach is the monitoring of key biomarkers, including heart rate variability (HRV) and respiratory rate. HRV reflects the interplay among regulatory systems essential for optimal physiological performance; robust HRV indicates healthy autonomic regulation, while diminished variability may signal physical or emotional distress. In parallel, our novel algorithm estimates respiratory rate from photoplethysmogram (PPG) signals by isolating subtle breathing-induced modulations. By integrating these biomarkers with additional physiological and behavioral data, the system endeavors to replicate published findings and validate early warning signs of potential mental health crises through consistent and reliable monitoring.
+
+In support of our replication objectives, we are leveraging multiple datasets that have been instrumental in previous studies. These include:
+
+\begin{itemize}
+  \item \textbf{B Kemp, AH Zwinderman, B Tuk, HAC Kamphuisen, JJL Oberyé (2000):} \textit{Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG.}
+  \item \textbf{Cho, P., Kim, J., Bent, B., \& Dunn, J. (2023):} \textit{BIG IDEAs Lab Glycemic Variability and Wearable Device Data (version 1.1.2)} available on PhysioNet [DOI: 10.13026/zthx-5212].
+  \item \textbf{Bent, B., Cho, P.J., Henriquez, M. et al. (2021):} \textit{Engineering digital biomarkers of interstitial glucose from noninvasive smartwatches} published in npj Digital Medicine [DOI: 10.1038/s41746-021-00465-w].
+  \item \textbf{Mukli, P., Yabluchanskiy, A., \& Csipo, T. (2021):} \textit{Mental workload during n-back task captured by TransCranial Doppler (TCD) sonography and functional Near-Infrared Spectroscopy (fNIRS) monitoring (version 1.0)} available on PhysioNet [DOI: 10.13026/zfb2-1g43].
+  \item \textbf{Amin, M. R., Wickramasuriya, D., \& Faghih, R. T. (2022):} \textit{A Wearable Exam Stress Dataset for Predicting Cognitive Performance in Real-World Settings (version 1.0.0)} available on PhysioNet [DOI: 10.13026/kvkb-aj90].
+  \item \textbf{Dataset for Predicting Grades using Physiological Signals (2022):} Presented at the IEEE Healthcare Innovations and Point of Care Technologies (HI-POCT) conference.
+  \item \textbf{Pimentel, M.A.F. et al. (2016):} \textit{Towards a Robust Estimation of Respiratory Rate from Pulse Oximeters} published in IEEE Transactions on Biomedical Engineering [DOI: 10.1109/TBME.2016.2613124].
+  \item \textbf{Birjandtalab, J., Cogan, D., Baran Pouyan, M., \& Nourani, M. (2016):} \textit{A Non-EEG Biosignals Dataset for Assessment and Visualization of Neurological Status} from the IEEE International Workshop on Signal Processing Systems (SiPS).
+  \item \textbf{Hongn, A., Bosch, F., Prado, L., \& Bonomini, P. (2025):} \textit{Wearable Device Dataset from Induced Stress and Structured Exercise Sessions (version 1.0.0)} available on PhysioNet [DOI: 10.13026/zzf8-xv61].
+\end{itemize}
+
+By applying these datasets, we aim to recreate the experimental conditions and results of the original studies, thereby validating our algorithm's accuracy and robustness in a controlled, reproducible manner.
+
+\textbf{Pattern Analysis:}
+
+The raw data is transformed into meaningful, individualized profiles using two main approaches:
+\begin{itemize}
+  \item \textbf{Baseline Establishment:} Personalized baselines are generated that capture each subject’s regular behavioral and physiological patterns.
+  \item \textbf{Anomaly Detection:} Advanced machine learning algorithms are applied to detect significant deviations--such as prolonged sleep deficits or reduced physical activity--that may serve as early indicators of distress.
+\end{itemize}
+
+\textbf{Crisis Prediction:}
+
+To anticipate potential mental health crises, our methodology incorporates a dynamic risk assessment system that includes:
+\begin{itemize}
+  \item \textbf{Risk Scoring:} Deviations from the established baselines are quantified into a risk score; higher values suggest an increased probability of an impending crisis.
+  \item \textbf{Trend Analysis:} Temporal patterns are monitored to identify gradual declines or abrupt changes, thereby reinforcing our early-warning capabilities.
+\end{itemize}
+
+\textbf{Intervention and Support:}
+
+Upon detecting significant anomalies, our system triggers a range of support measures to ensure timely and targeted intervention:
+\begin{itemize}
+  \item \textbf{Alerts and Reminders:} Automated notifications are sent to both the individual and their support network when critical thresholds are surpassed.
+  \item \textbf{Resource Recommendations:} Customized recommendations for coping strategies and professional assistance are provided based on the nature and severity of the deviations.
+  \item \textbf{Virtual Assistance:} The framework integrates virtual therapists and mental health chatbots to offer real-time guidance and support during a crisis.
+\end{itemize}
+
+\textbf{Existing HRV Devices:}
+
+In addition to dataset replication, our approach utilizes data from leading HRV monitoring devices to further support our analysis and replication efforts. Notable examples include:
+\begin{itemize}
+  \item \textbf{Harvard Health Ad Watch,} which Shmerling (2021) highlighted for its application in stress reduction through HRV monitoring.
+  \item \textbf{Fitbit, Garmin, and Apple Watch devices,} which have been evaluated in studies by Motahari-Nezhad et al. (2022) and White et al. (2024) for providing reliable and comparable physiological data.
+\end{itemize}
+
+This comprehensive methodology, which integrates continuous data streams, multiple datasets from well-validated studies, and state-of-the-art wearable devices, forms the cornerstone of our effort to recreate and validate published results. The successful replication not only reinforces the robustness of our predictive algorithm but also deepens our understanding of the intricate relationship between physiological signals and mental health outcomes.
