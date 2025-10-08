@@ -1,0 +1,28 @@
+###########################################################
+###########################################################
+to get my modules in my environment (python)
+###########################################################
+###########################################################
+
+Ctr + Shift + P
+Python: Create Environment
+Then choose global
+
+Example: python -m pip install pandas
+
+python -m pip install scipy
+
+
+###########################################################
+###########################################################
+changing permisions (python)
+###########################################################
+###########################################################
+
+import os
+import subprocess
+
+folder_path = r"C:/Users/redst/Downloads/working/1_school/2_AI"  # Use a raw string or double backslashes
+username = "redst"  # Replace with your actual username
+command = ["icacls", folder_path, "/grant", f"{username}:(F)", "/T"]
+subprocess.call(command)
